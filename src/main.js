@@ -4,6 +4,7 @@ import router from "@/router"
 import { createPinia } from "pinia"
 import vuetify from "@/plugins/vuetify"
 import "./style.css"
+import './registerServiceWorker'
 
 const pinia = createPinia()
 
